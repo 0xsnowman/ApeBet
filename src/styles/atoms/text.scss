@@ -1,0 +1,123 @@
+.atom-text {
+  transition: 0.4s;
+  color: black;
+  
+  &-logo {
+    font-size: 64px;
+    font-weight: bolder;
+  }
+
+  &-sublogo {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  &-title {
+    font-size: 39px;
+    font-weight: bolder;
+  }
+
+  &-undertitle {
+    font-size: 33px;
+  }
+
+  &-smalltitle {
+    font-size: 29px;
+  }
+
+  &-uppersubtitle {
+    font-size: 26px;
+  }
+
+  &-subtitle {
+    font-size: 21px;
+  }
+
+  &-undersubtitle {
+    font-size: 18px;
+  }
+
+  &-header {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &-plain {
+    font-size: 14px;
+  }
+
+  &-tiny {
+    font-size: 11px;
+  }
+
+  &-button {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  //////////////  Mobile View  ////////////////
+  &-mobilelogo {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  &-mobilesublogo {
+    font-size: 29px;
+    font-weight: bolder;
+  }
+
+  &-mobiletitle {
+    font-size: 36px;
+    font-weight: bolder;
+  }
+
+  &-mobileundertitle {
+    font-size: 32px;
+  }
+
+  
+
+  &-mobilesmalltitle {
+    font-size: 28px;
+  }
+
+  &-mobileuppersubtitle {
+    font-size: 26px;
+  }
+
+  &-mobilesubtitle {
+    font-size: 21px;
+  }
+
+  &-mobileundersubtitle {
+    font-size: 19px;
+  }
+
+  &-mobileheader {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &-mobileparagraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &-mobileplain {
+    font-size: 14px;
+  }
+
+  &-mobiletiny {
+    font-size: 11px;
+  }
+
+  &-mobilebutton {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

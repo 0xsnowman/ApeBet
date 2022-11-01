@@ -1,0 +1,16 @@
+@import "./atoms/index.scss";
+@import "./molecules/index.scss";
+@import "./pages/home.scss";
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Flipbash";
+    src: local("Flipbash"), url(../assets/fonts/Flipbash.otf) format("opentype");
+}
+
+* {
+    font-family: "Flipbash" !important;
+}

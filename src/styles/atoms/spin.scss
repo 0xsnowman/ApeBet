@@ -1,0 +1,19 @@
+.atom-spin {
+    &::before {
+        animation: 1.5s linear infinite spinner;
+        animation-play-state: inherit;
+        border: solid 3px #cfd0d1;
+        border-bottom-color: #185275;
+        box-shadow: "0px 0px 8px #185275";
+        border-radius: 50%;
+        content: "";
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 40%;
+        left: calc(50% - 10px);
+        transform: translate3d(-50%, -50%, 0);
+        will-change: transform;
+        -webkit-backdrop-filter: blur(10px);
+    }
+}
