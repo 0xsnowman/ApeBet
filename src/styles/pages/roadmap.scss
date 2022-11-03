@@ -1,0 +1,21 @@
+.square {
+    width: 60%;
+    padding: 20px;
+    position: relative;
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square > div {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}

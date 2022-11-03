@@ -8,6 +8,8 @@ import instagram from "./instagram.svg";
 import mainImg from "./main-img.png";
 import upMini from "./up-mini.svg";
 import right from "./right.svg";
+import logo from "./abetlogo.png";
+import menu from "./menu.svg";
 
 const Icons = {
   checked,
@@ -20,5 +22,7 @@ const Icons = {
   mainImg,
   upMini,
   right,
+  logo,
+  menu,
 };
 export default Icons;
