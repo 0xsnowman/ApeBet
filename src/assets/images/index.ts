@@ -1,5 +1,5 @@
 import founder from "./avatar_founder.png";
-import docFounder from "./avatar_docfounder.jpg";
+import docFounder from "./avatar_docfounder.png";
 import manager from "./avatar_commanager.png";
 import marketer from "./avatar_marketer.png";
 import apeBetFlag from "./apebet-flag.jpg";
