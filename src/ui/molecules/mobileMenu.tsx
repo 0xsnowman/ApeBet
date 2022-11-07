@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Flex, Icon, Text } from "ui/atoms";
 import Icons from "assets/icons";
-import { COLORS } from "config/colors";
+// import { COLORS } from "config/colors";
 import { Z_INDEX_LEVELS } from "config/dimensions";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import { useNavigate } from "react-router-dom";
