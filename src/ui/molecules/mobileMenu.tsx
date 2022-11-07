@@ -31,7 +31,7 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
             position="fixed"
             width={deviceWidth}
             height={deviceHeight}
-            backgroundColor={COLORS.BLUE_THEME_DARK_BLUE}
+            backgroundColor={"#F3F097"}
             top={0}
             left={0}
             padding={20}
@@ -63,7 +63,7 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
                   <Text
                     type="undersubtitle"
                     fontWeight={600}
-                    color={COLORS.BLUE_THEME_WHITE_BLUE}
+                    color="black"
                   >
                     Home
                   </Text>
@@ -81,7 +81,7 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
                   <Text
                     type="undersubtitle"
                     fontWeight={600}
-                    color={COLORS.BLUE_THEME_WHITE_BLUE}
+                    color="black"
                   >
                     Roadmap
                   </Text>
@@ -99,7 +99,7 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
                   <Text
                     type="undersubtitle"
                     fontWeight={600}
-                    color={COLORS.BLUE_THEME_WHITE_BLUE}
+                    color="black"
                   >
                     Team
                   </Text>
@@ -118,12 +118,12 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
                   <Text
                     type="undersubtitle"
                     fontWeight={600}
-                    color={COLORS.BLUE_THEME_WHITE_BLUE}
+                    color="black"
                   >
                     Twitter
                   </Text>
                   <Box marginTop={4}>
-                    <Icon icon={Icons.twitter} size="MEDIUM"></Icon>
+                    <Icon icon={Icons.twitterBlack} size="MEDIUM"></Icon>
                   </Box>
                 </Flex>
               </Box>
@@ -139,12 +139,12 @@ const MobileMenu: React.FC<IMobileMenuProps> = ({ hasDeals = true }) => {
                   <Text
                     type="undersubtitle"
                     fontWeight={600}
-                    color={COLORS.BLUE_THEME_WHITE_BLUE}
+                    color="black"
                   >
                     Discord
                   </Text>
                   <Box marginTop={4}>
-                    <Icon icon={Icons.discord} size="MEDIUM"></Icon>
+                    <Icon icon={Icons.discordBlack} size="MEDIUM"></Icon>
                   </Box>
                 </Flex>
               </Box>

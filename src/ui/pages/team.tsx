@@ -32,14 +32,15 @@ const Team = () => {
                   <Accordian contents={faqData} />
                 </Box>
               </Flex>
-              <Flex flex={1}>
-                <Box padding={20}>
-                  <Flex flexDirection="column" gap={20}>
+              <Flex flex={1} justifyContent="center">
+                <Box padding={20} width="100%">
+                  <Flex flexDirection="column" gap={20} alignItems="center">
                     <Flex
                       flexDirection={
                         deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
-                      gap={20}
+                      justifyContent="center"
+                      gap={"5%"}
                     >
                       <Box
                         borderWidth={6}
@@ -121,7 +122,8 @@ const Team = () => {
                       flexDirection={
                         deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
-                      gap={20}
+                      justifyContent="center"
+                      gap={"5%"}
                     >
                       <Box
                         borderWidth={6}

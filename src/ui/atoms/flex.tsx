@@ -21,7 +21,7 @@ interface IFlexProps {
     | "initial";
   width?: number | "100%";
   height?: number | "100%";
-  gap?: number;
+  gap?: number | string;
   flex?: number;
   zIndex?: number;
 }
