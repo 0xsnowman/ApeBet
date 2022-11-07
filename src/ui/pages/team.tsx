@@ -37,7 +37,7 @@ const Team = () => {
                   <Flex flexDirection="column" gap={20}>
                     <Flex
                       flexDirection={
-                        deviceWidth > WINDOW_SIZES.SIZE_768 ? "row" : "column"
+                        deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
                       gap={20}
                     >
@@ -46,11 +46,29 @@ const Team = () => {
                         borderColor="black"
                         backgroundColor="black"
                         position="relative"
+                        width={
+                          deviceWidth >= WINDOW_SIZES.SIZE_768 ? "30%" : "100%"
+                        }
+                        minWidth={200}
                       >
-                        <Flex flexDirection="column" gap={6}>
-                          <Image image={Images.founder} width="100%" />
-                          <Box backgroundColor="white">
-                            <Flex flexDirection="column">
+                        <Flex
+                          flexDirection="column"
+                          gap={6}
+                          width="100%"
+                          height={"100%"}
+                        >
+                          <Image
+                            image={Images.founder}
+                            width="100%"
+                            height="75%"
+                            objectFit="cover"
+                          />
+                          <Box backgroundColor="white" height={"25%"}>
+                            <Flex
+                              flexDirection="column"
+                              justifyContent="center"
+                              height={"100%"}
+                            >
                               <Text color="red" center>
                                 AP3
                               </Text>
@@ -65,16 +83,34 @@ const Team = () => {
                         borderWidth={6}
                         borderColor="black"
                         backgroundColor="black"
+                        width={
+                          deviceWidth >= WINDOW_SIZES.SIZE_768 ? "30%" : "100%"
+                        }
+                        minWidth={200}
                       >
-                        <Flex flexDirection="column" gap={6}>
-                          <Image image={Images.leader} />
-                          <Box backgroundColor="white">
-                            <Flex flexDirection="column">
+                        <Flex
+                          flexDirection="column"
+                          gap={6}
+                          width="100%"
+                          height={"100%"}
+                        >
+                          <Image
+                            image={Images.docFounder}
+                            width="100%"
+                            height="75%"
+                            objectFit="cover"
+                          />
+                          <Box backgroundColor="white" height={"25%"}>
+                            <Flex
+                              flexDirection="column"
+                              justifyContent="center"
+                              height={"100%"}
+                            >
                               <Text color="red" center>
-                                CollabAPG
+                                0xDoc
                               </Text>
                               <Text color="black" center>
-                                Community Lead
+                                Founder
                               </Text>
                             </Flex>
                           </Box>
@@ -83,7 +119,7 @@ const Team = () => {
                     </Flex>
                     <Flex
                       flexDirection={
-                        deviceWidth > WINDOW_SIZES.SIZE_768 ? "row" : "column"
+                        deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
                       gap={20}
                     >
@@ -91,16 +127,34 @@ const Team = () => {
                         borderWidth={6}
                         borderColor="black"
                         backgroundColor="black"
+                        width={
+                          deviceWidth >= WINDOW_SIZES.SIZE_768 ? "30%" : "100%"
+                        }
+                        minWidth={200}
                       >
-                        <Flex flexDirection="column" gap={6}>
-                          <Image image={Images.manager} />
-                          <Box backgroundColor="white">
-                            <Flex flexDirection="column">
+                        <Flex
+                          flexDirection="column"
+                          gap={6}
+                          width="100%"
+                          height={"100%"}
+                        >
+                          <Image
+                            image={Images.marketer}
+                            width="100%"
+                            height="75%"
+                            objectFit="cover"
+                          />
+                          <Box backgroundColor="white" height={"25%"}>
+                            <Flex
+                              flexDirection="column"
+                              justifyContent="center"
+                              height={"100%"}
+                            >
                               <Text color="red" center>
-                                0xSabik
+                                ShuffeApe
                               </Text>
                               <Text color="black" center>
-                                Community Manager
+                                Marketing Specialist
                               </Text>
                             </Flex>
                           </Box>
@@ -110,16 +164,34 @@ const Team = () => {
                         borderWidth={6}
                         borderColor="black"
                         backgroundColor="black"
+                        width={
+                          deviceWidth >= WINDOW_SIZES.SIZE_768 ? "30%" : "100%"
+                        }
+                        minWidth={200}
                       >
-                        <Flex flexDirection="column" gap={6}>
-                          <Image image={Images.marketer} />
-                          <Box backgroundColor="white">
-                            <Flex flexDirection="column">
+                        <Flex
+                          flexDirection="column"
+                          gap={6}
+                          width="100%"
+                          height={"100%"}
+                        >
+                          <Image
+                            image={Images.manager}
+                            width="100%"
+                            height="75%"
+                            objectFit="cover"
+                          />
+                          <Box backgroundColor="white" height={"25%"}>
+                            <Flex
+                              flexDirection="column"
+                              justifyContent="center"
+                              height={"100%"}
+                            >
                               <Text color="red" center>
                                 HNZSY
                               </Text>
                               <Text color="black" center>
-                                Marketing Specialist
+                                Community Manager
                               </Text>
                             </Flex>
                           </Box>

@@ -1,5 +1,5 @@
 import founder from "./avatar_founder.png";
-import leader from "./avatar_comleader.png";
+import docFounder from "./avatar_docfounder.jpg";
 import manager from "./avatar_commanager.png";
 import marketer from "./avatar_marketer.png";
 import apeBetFlag from "./apebet-flag.jpg";
@@ -11,7 +11,7 @@ import room from "./room.png";
 
 const Images = {
     founder,
-    leader,
+    docFounder,
     manager,
     marketer,
     apeBetFlag,
