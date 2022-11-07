@@ -15,6 +15,7 @@ function App() {
         <Route path="/roadmap" element={<RoadMap />} />
         <Route path="/team" element={<Team />} />
         <Route path="/whitepaper" element={<Home />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>

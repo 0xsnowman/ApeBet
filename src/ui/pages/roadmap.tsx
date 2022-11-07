@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Flex, Text, Image, Icon } from "ui/atoms";
+import { Box, Flex, Text, Image } from "ui/atoms";
 import { Page } from "ui/molecules";
 import Images from "assets/images";
 import Icons from "assets/icons";
@@ -161,15 +161,21 @@ const RoadMap = () => {
                         </Flex>
                       </Box>
                       <Box height={10} />
-                      <Flex>
+                      <Flex gap={30}>
                         {deviceWidth >= WINDOW_SIZES.SIZE_768 && (
                           <Text color="black">
-                            Grand launch of our ApeBet casino where we will have
-                            a massive player base of players who extend out side
-                            of the NFT space. <br /> What does this mean to you?
+                            Grand launch of our ApeBet casino.
+                            <br />
+                            <br /> We will have a massive player base of players
+                            who extend out side of the NFT space.
+                            <br />
+                            <br /> What does this mean to you?
+                            <br />
                             <br /> It will largely increase the profits what the
-                            casino will bring in. Giving our holders a very high
-                            rake back for holding the ApeBet NFT.
+                            casino will bring in.
+                            <br />
+                            <br /> Giving our holders a very high rakeback for
+                            holding the ApeBet NFT.
                           </Text>
                         )}
                         {deviceWidth < WINDOW_SIZES.SIZE_768 && (
@@ -191,14 +197,16 @@ const RoadMap = () => {
                       backgroundColor="#F3F097"
                       position="relative"
                     >
-                      {deviceWidth < WINDOW_SIZES.SIZE_768 && <Box
-                        position="absolute"
-                        left={-30}
-                        top="50%"
-                        width={30}
-                        height={6}
-                        backgroundColor="black"
-                      />}
+                      {deviceWidth < WINDOW_SIZES.SIZE_768 && (
+                        <Box
+                          position="absolute"
+                          left={-30}
+                          top="50%"
+                          width={30}
+                          height={6}
+                          backgroundColor="black"
+                        />
+                      )}
                       <Box
                         cursor
                         borderColor="black"
@@ -238,26 +246,30 @@ const RoadMap = () => {
                         </Flex>
                       </Box>
                       <Box height={10} />
-                      <Flex>
+                      <Flex gap={30}>
                         {deviceWidth >= WINDOW_SIZES.SIZE_768 && (
                           <Text color="black">
-                            Utility : 1. Enter massive raffles 2. Swap to crypto
-                            in real time 3. Payment for APEBET products and
-                            services The $ABET token is the utility token for
-                            ApeBet ecosystem. <br />
-                            It will have a large liquidity pool backing it up at
-                            all times so when our holders receive the token for
-                            holding their NFT. They can exchange it for crypto
-                            in real time. Enter massive raffles that will be
-                            ongoing on our website at all times. $ABET token is
-                            a separate bonus from our periodical payouts what we
-                            will have every 2 weeks for our loyal holders.
+                            Utility :<br />
+                            <br /> 1. Enter massive raffles
+                            <br /> 2. Swap to crypto in real time
+                            <br /> 3. Payment for ApeBet products and services
+                            <br />
+                            <br /> The $ABET token is the utility token for
+                            ApeBet ecosystem. It will have a large liquidity
+                            pool backing it up at all times so when our holders
+                            receive the token for holding their NFT. They can
+                            exchange it for crypto in real time. Enter massive
+                            raffles that will be ongoing on our website at all
+                            times. $ABET token is a separate bonus from our
+                            periodical payouts what we will have every 2 weeks
+                            for our loyal holders.
                           </Text>
                         )}
                         {deviceWidth < WINDOW_SIZES.SIZE_768 && (
                           <Text color="black">
-                            1. Enter massive raffles 2. Swap to crypto in real
-                            time 3. Payment for ApeBet products and services
+                            1. Enter massive raffles
+                            <br /> 2. Swap to crypto in real time
+                            <br /> 3. Payment for ApeBet products and services
                           </Text>
                         )}
                         <Box>
@@ -274,14 +286,16 @@ const RoadMap = () => {
                       backgroundColor="#F3F097"
                       position="relative"
                     >
-                      {deviceWidth < WINDOW_SIZES.SIZE_768 && <Box
-                        position="absolute"
-                        left={-30}
-                        top="50%"
-                        width={30}
-                        height={6}
-                        backgroundColor="black"
-                      />}
+                      {deviceWidth < WINDOW_SIZES.SIZE_768 && (
+                        <Box
+                          position="absolute"
+                          left={-30}
+                          top="50%"
+                          width={30}
+                          height={6}
+                          backgroundColor="black"
+                        />
+                      )}
                       <Box
                         cursor
                         borderColor="black"
@@ -321,12 +335,14 @@ const RoadMap = () => {
                         </Flex>
                       </Box>
                       <Box height={10} />
-                      <Flex>
+                      <Flex gap={30}>
                         {deviceWidth > WINDOW_SIZES.SIZE_768 && (
                           <Text color="black">
-                            Ape Juice airdrop to APEBET NFT holders. You can
-                            either hold the Juice as it gets scares it will go
-                            up in value or use it on your ApeBet NFT.
+                            Ape Juice airdrop to APEBET NFT holders.
+                            <br />
+                            <br /> You can either hold the Juice as it gets
+                            scares it will go up in value or use it on your
+                            ApeBet NFT.
                           </Text>
                         )}
                         {deviceWidth < WINDOW_SIZES.SIZE_768 && (
@@ -347,22 +363,20 @@ const RoadMap = () => {
                       borderWidth={8}
                       paddingHorizontal={20}
                       paddingVertical={15}
-                      backgroundColor={
-                        deviceWidth >= WINDOW_SIZES.SIZE_768
-                          ? "transparent"
-                          : "#F3F097"
-                      }
+                      backgroundColor="#F3F097"
                       width={"100%"}
                       position="relative"
                     >
-                      {deviceWidth < WINDOW_SIZES.SIZE_768 && <Box
-                        position="absolute"
-                        left={-30}
-                        top="50%"
-                        width={30}
-                        height={6}
-                        backgroundColor="black"
-                      />}
+                      {deviceWidth < WINDOW_SIZES.SIZE_768 && (
+                        <Box
+                          position="absolute"
+                          left={-30}
+                          top="50%"
+                          width={30}
+                          height={6}
+                          backgroundColor="black"
+                        />
+                      )}
                       <Box
                         cursor
                         borderColor="black"
@@ -384,7 +398,7 @@ const RoadMap = () => {
                             color={"black"}
                             fontWeight={600}
                           >
-                            Infected
+                            INFECTED
                           </Text>
                           <Text
                             type={
@@ -397,7 +411,7 @@ const RoadMap = () => {
                             color={"red"}
                             fontWeight={600}
                           >
-                            Apes
+                            APES
                           </Text>
                         </Flex>
                       </Box>
@@ -409,12 +423,17 @@ const RoadMap = () => {
                             ApeBet collection. Using ape juice on the ApeBet NFT
                             will create another NFT under a new collection. The
                             traits of your Infected ape will be corresponding to
-                            your current NFTs traits. <br />
-                            Utility - Owning APEBET NFT and INFECTED APE NFT
-                            will grant you a special access to bonus rewards and
-                            rake backs - Staking of Infected apes and APEBET
-                            NFTs will increase your earnings of $ABET and
-                            periodical profit payouts by the casino by 150%
+                            your current NFTs traits.
+                            <br />
+                            <br /> Utility
+                            <br />
+                            <br /> - Owning APEBET NFT and INFECTED APE NFT will
+                            grant you a special access to bonus rewards and
+                            rakebacks
+                            <br /> - Staking Infected apes and APEBET NFTs will
+                            increase your earnings of $ABET and periodical
+                            profit payouts by the casino by 150%
+                            <br /> - Much more to come
                           </Text>
                         )}
                         {deviceWidth < WINDOW_SIZES.SIZE_768 && (
@@ -423,40 +442,73 @@ const RoadMap = () => {
                             Infected Ape
                           </Text>
                         )}
-                        <Icon icon={Icons.logo} size="EXTRA_SUPER_LARGE" />
+                        {/* <Icon icon={Icons.logo} size="EXTRA_SUPER_LARGE" /> */}
+                        <div
+                          className="square"
+                          style={{
+                            backgroundColor: "transparent",
+                            border: "none",
+                          }}
+                        >
+                          <Image image={Icons.logo} width="100%" />
+                        </div>
                       </Flex>
 
                       <Box height={20} />
-                      <Flex
-                        gap={20}
-                        justifyContent="center"
-                        flexDirection={
-                          deviceWidth > WINDOW_SIZES.SIZE_768 ? "row" : "column"
-                        }
-                      >
-                        <Flex flex={1} justifyContent="center">
-                          {/* <Box
-                        borderWidth={6}
-                        borderColor="black"
-                        padding={10}
-                      >
-                        <Text color="black">Normal Ape</Text>
-                      </Box> */}
-                          <div className="square">
-                            <Image image={Images.infectedJuice} width="100%" />
-                          </div>
+                      <Box position="relative">
+                        <Flex
+                          gap={0}
+                          justifyContent="center"
+                          alignItems="center"
+                          flexDirection={
+                            deviceWidth > WINDOW_SIZES.SIZE_768
+                              ? "row"
+                              : "column"
+                          }
+                        >
+                          <Flex flex={2} justifyContent="center">
+                            <div className="square">
+                              <Image
+                                image={Images.infectedJuice}
+                                width="100%"
+                              />
+                            </div>
+                          </Flex>
+                          <Flex
+                            flex={1}
+                            justifyContent="center"
+                            alignItems="center"
+                            height={"100%"}
+                          >
+                            <Text color="black" type="title">
+                              +
+                            </Text>
+                          </Flex>
+                          <Flex flex={2} justifyContent="center">
+                            <div className="square">
+                              <Image image={Images.apeBetFlag} width="100%" />
+                            </div>
+                          </Flex>
+                          <Flex
+                            flex={1}
+                            justifyContent="center"
+                            alignItems="center"
+                            height={"100%"}
+                          >
+                            <Text color="black" type="title">
+                              =
+                            </Text>
+                          </Flex>
+                          <Flex flex={2} justifyContent="center">
+                            <div className="square">
+                              <Image
+                                image={Images.infectedNormal}
+                                width="100%"
+                              />
+                            </div>
+                          </Flex>
                         </Flex>
-                        <Flex flex={1} justifyContent="center">
-                          <div className="square">
-                            <Image image={Images.apeBetFlag} width="100%" />
-                          </div>
-                        </Flex>
-                        <Flex flex={1} justifyContent="center">
-                          <div className="square">
-                            <Image image={Images.infectedNormal} width="100%" />
-                          </div>
-                        </Flex>
-                      </Flex>
+                      </Box>
                     </Box>
                   </Flex>
                 </Flex>

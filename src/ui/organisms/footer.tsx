@@ -26,14 +26,14 @@ const Footer = () => {
               Follow Us
             </Text>
             <Box>
-              <Flex gap={10} justifyContent="center">
+              <Flex justifyContent="center" gap={20}>
                 <Box
                   cursor
                   onClick={() => {
                     window.location.replace("https://twitter.com/ApeBetNFT");
                   }}
                 >
-                  <Icon icon={Icons.twitterBlack}></Icon>
+                  <Icon icon={Icons.twitterBlack} size="MEDIUM" />
                 </Box>
                 <Box
                   cursor
@@ -41,15 +41,7 @@ const Footer = () => {
                     window.location.replace("https://discord.gg/EbmhvkrzUm");
                   }}
                 >
-                  <Icon icon={Icons.discordBlack}></Icon>
-                </Box>
-                <Box
-                  cursor
-                  onClick={() => {
-                    window.location.replace("/#");
-                  }}
-                >
-                  <Icon icon={Icons.instagram}></Icon>
+                  <Icon icon={Icons.discordBlack} size="MEDIUM" />
                 </Box>
               </Flex>
             </Box>
