@@ -10,6 +10,9 @@ import upMini from "./up-mini.svg";
 import right from "./right.svg";
 import logo from "./abetlogo.png";
 import menu from "./menu.svg";
+import close from "./close.svg";
+import twitterBlack from "./twitter-black.svg";
+import discordBlack from "./discord-black.svg";
 
 const Icons = {
   checked,
@@ -24,5 +27,8 @@ const Icons = {
   right,
   logo,
   menu,
+  close,
+  discordBlack,
+  twitterBlack,
 };
 export default Icons;

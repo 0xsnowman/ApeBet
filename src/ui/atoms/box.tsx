@@ -4,6 +4,7 @@ interface IBoxProps {
   children?: React.ReactNode;
   width?: string | number;
   height?: string | number;
+  float?: "left" | "right" | "none" | "inline-start" | "inline-end";
   maxHeight?: string | number;
   maxWidth?: string | number;
   minHeight?: string | number;
@@ -60,6 +61,7 @@ const Box: React.FC<IBoxProps> = ({
   className,
   height,
   width,
+  float = "none",
   maxHeight,
   maxWidth,
   minHeight,
@@ -134,6 +136,7 @@ const Box: React.FC<IBoxProps> = ({
       style={{
         display: display,
         position: position,
+        float: float,
         width: width ? width : "auto",
         height: height ? height : "auto",
         maxHeight: maxHeight ? maxHeight : "auto",

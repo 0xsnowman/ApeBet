@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { Box, Flex, Icon, Text } from "ui/atoms";
+import { MobileMenu } from "ui/molecules";
 import Icons from "assets/icons";
 
 import { useNavigate } from "react-router-dom";
@@ -125,10 +126,13 @@ const Header = () => {
             </Flex>
           </Box>
         )}
-        {deviceWidth < WINDOW_SIZES.SIZE_768 && (
+        {/* {deviceWidth < WINDOW_SIZES.SIZE_768 && (
           <Box>
             <Icon icon={Icons.menu} size="UPPERMEDIUM"></Icon>
           </Box>
+        )} */}
+        {deviceWidth < WINDOW_SIZES.SIZE_768 && (
+          <MobileMenu />
         )}
       </Flex>
     </Box>
