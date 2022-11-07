@@ -36,8 +36,8 @@ const Accordian: React.FC<IAccordianProps> = ({ contents }) => {
           content.map((contentItem, index) => {
             return (
               <Box
-                backgroundColor={COLORS.BLUE_THEME_DEEP_BLUE}
-                borderColor={"#7E859352"}
+                backgroundColor={"#F3F097"}
+                borderColor={"#7f862c52"}
                 borderWidth={0.1}
                 borderRadius={3}
                 boxShadow={"3px 3px 3px #0A0E1391"}
@@ -63,7 +63,7 @@ const Accordian: React.FC<IAccordianProps> = ({ contents }) => {
                           <Icon icon={Icons.right} size="MEDIUM"></Icon>
                         )}
                       </Text>
-                      <Text type="undersubtitle" fontWeight={600} lineHeight={1.3}>
+                      <Text type="undersubtitle" fontWeight={400} lineHeight={1.3} color="#000">
                         {contentItem.title}
                       </Text>
                     </Flex>
@@ -80,7 +80,7 @@ const Accordian: React.FC<IAccordianProps> = ({ contents }) => {
                       transition={0.4}
                     >
                       <Box padding={15} />
-                      <Text type="paragraph" lineHeight={1.3}>
+                      <Text type="paragraph" lineHeight={1.3} color="black">
                         {contentItem.content}
                       </Text>
                     </Box>
