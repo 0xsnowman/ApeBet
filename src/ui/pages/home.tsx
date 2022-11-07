@@ -35,6 +35,7 @@ const Home = () => {
             />
             {deviceWidth < WINDOW_SIZES.SIZE_768 && (
               <Image
+                borderRadius="radius"
                 image={Images.room}
                 width={deviceWidth > WINDOW_SIZES.SIZE_768 ? "auto" : "70%"}
               />

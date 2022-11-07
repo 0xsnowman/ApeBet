@@ -18,4 +18,13 @@
   &-scaleDown {
     object-fit: scale-down;
   }
+
+  &-radius {
+    &-none {
+    }
+
+    &-radius {
+      border-radius: 5px;
+    }
+  }
 }
