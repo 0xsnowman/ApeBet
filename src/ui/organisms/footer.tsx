@@ -21,12 +21,12 @@ const Footer = () => {
           <Flex flex={1}>
             <Box />
           </Flex>
-          <Flex flex={1} flexDirection="column" gap={10} alignItems="center">
+          <Flex flex={1} flexDirection="column" gap={10} alignItems="center" justifyContent="center">
             <Text color="black" fontWeight={600} center>
               Follow Us
             </Text>
             <Box>
-              <Flex justifyContent="center" gap={20}>
+              <Flex justifyContent="center" alignItems="center" gap={20}>
                 <Box
                   cursor
                   onClick={() => {
@@ -46,7 +46,7 @@ const Footer = () => {
               </Flex>
             </Box>
           </Flex>
-          <Flex flex={1} flexDirection="column" gap={5} alignItems="flex-end">
+          <Flex flex={1} flexDirection="column" gap={5} alignItems="flex-end" justifyContent="center">
             <Text color="black" fontWeight={600}>
               ©APEBET Limited
             </Text>
