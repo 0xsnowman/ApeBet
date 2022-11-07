@@ -31,13 +31,13 @@ const Home = () => {
           >
             <Image
               image={logoColor === "blackRed" ? Icons.logoBr : Icons.logoRb}
-              width={deviceWidth > WINDOW_SIZES.SIZE_768 ? "auto" : "77%"}
+              width={deviceWidth >= WINDOW_SIZES.SIZE_768 ? "100%" : "77%"}
             />
             {deviceWidth < WINDOW_SIZES.SIZE_768 && (
               <Image
                 borderRadius="radius"
                 image={Images.room}
-                width={deviceWidth > WINDOW_SIZES.SIZE_768 ? "auto" : "70%"}
+                width={deviceWidth >= WINDOW_SIZES.SIZE_768 ? "auto" : "70%"}
               />
             )}
           </Flex>

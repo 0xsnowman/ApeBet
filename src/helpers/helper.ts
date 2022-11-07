@@ -5,7 +5,7 @@
 export const isMobile = () => {
     // const { deviceWidth } = useWindowDimensions();
 
-    // if (deviceWidth > WINDOW_SIZES.SIZE_768)
+    // if (deviceWidth >= WINDOW_SIZES.SIZE_768)
     //     return true;
     // return false;
 }

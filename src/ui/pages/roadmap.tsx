@@ -13,7 +13,8 @@ const RoadMap = () => {
     <Page className="page-team" backgroundColor="#F5F3AD">
       <Flex justifyContent="center" alignItems="center" height={"100%"}>
         <Box
-          padding={30}
+          paddingHorizontal={30}
+          paddingVertical={deviceWidth >= WINDOW_SIZES.SIZE_768 ? 30 : 0}
           width="100%"
           height={"100%"}
           marginLeft={deviceWidth < WINDOW_SIZES.SIZE_768 ? -60 : 0}
@@ -25,12 +26,18 @@ const RoadMap = () => {
             borderWidth={6}
             width="100%"
             height={"100%"}
-            padding={20}
+            paddingHorizontal={20}
+            paddingVertical={deviceWidth >= WINDOW_SIZES.SIZE_768 ? 20 : 0}
           >
             <Flex gap={20}>
               {deviceWidth < WINDOW_SIZES.SIZE_768 && (
                 <Flex flex={1}>
-                  <Box width={6} height="100%" backgroundColor="black"></Box>
+                  <Box
+                    width={6}
+                    marginTop={10}
+                    height="100%"
+                    backgroundColor="black"
+                  ></Box>
                 </Flex>
               )}
               <Box>
@@ -47,7 +54,7 @@ const RoadMap = () => {
                   <Flex justifyContent="space-between" gap={20}>
                     <Text
                       type={
-                        deviceWidth > WINDOW_SIZES.SIZE_768
+                        deviceWidth >= WINDOW_SIZES.SIZE_768
                           ? "subtitle"
                           : deviceWidth > WINDOW_SIZES.SIZE_375
                           ? "paragraph"
@@ -60,7 +67,7 @@ const RoadMap = () => {
                     </Text>
                     <Text
                       type={
-                        deviceWidth > WINDOW_SIZES.SIZE_768
+                        deviceWidth >= WINDOW_SIZES.SIZE_768
                           ? "subtitle"
                           : deviceWidth > WINDOW_SIZES.SIZE_375
                           ? "paragraph"
@@ -79,7 +86,7 @@ const RoadMap = () => {
                   gap={20}
                   alignItems="flex-start"
                   flexDirection={
-                    deviceWidth > WINDOW_SIZES.SIZE_768 ? "row" : "column"
+                    deviceWidth >= WINDOW_SIZES.SIZE_768 ? "row" : "column"
                   }
                 >
                   <Flex
@@ -120,7 +127,7 @@ const RoadMap = () => {
                           <Flex>
                             <Text
                               type={
-                                deviceWidth > WINDOW_SIZES.SIZE_768
+                                deviceWidth >= WINDOW_SIZES.SIZE_768
                                   ? "subtitle"
                                   : deviceWidth > WINDOW_SIZES.SIZE_375
                                   ? "paragraph"
@@ -133,7 +140,7 @@ const RoadMap = () => {
                             </Text>
                             <Text
                               type={
-                                deviceWidth > WINDOW_SIZES.SIZE_768
+                                deviceWidth >= WINDOW_SIZES.SIZE_768
                                   ? "subtitle"
                                   : deviceWidth > WINDOW_SIZES.SIZE_375
                                   ? "paragraph"
@@ -147,7 +154,7 @@ const RoadMap = () => {
                           </Flex>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -219,7 +226,7 @@ const RoadMap = () => {
                         <Flex justifyContent="space-between" gap={20}>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -232,7 +239,7 @@ const RoadMap = () => {
                           </Text>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -308,7 +315,7 @@ const RoadMap = () => {
                         <Flex justifyContent="flex-start">
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -321,7 +328,7 @@ const RoadMap = () => {
                           </Text>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -336,7 +343,7 @@ const RoadMap = () => {
                       </Box>
                       <Box height={10} />
                       <Flex gap={30}>
-                        {deviceWidth > WINDOW_SIZES.SIZE_768 && (
+                        {deviceWidth >= WINDOW_SIZES.SIZE_768 && (
                           <Text color="black">
                             Ape Juice airdrop to APEBET NFT holders.
                             <br />
@@ -389,7 +396,7 @@ const RoadMap = () => {
                         <Flex justifyContent="space-between" gap={20}>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -402,7 +409,7 @@ const RoadMap = () => {
                           </Text>
                           <Text
                             type={
-                              deviceWidth > WINDOW_SIZES.SIZE_768
+                              deviceWidth >= WINDOW_SIZES.SIZE_768
                                 ? "subtitle"
                                 : deviceWidth > WINDOW_SIZES.SIZE_375
                                 ? "paragraph"
@@ -461,7 +468,7 @@ const RoadMap = () => {
                           justifyContent="center"
                           alignItems="center"
                           flexDirection={
-                            deviceWidth > WINDOW_SIZES.SIZE_768
+                            deviceWidth >= WINDOW_SIZES.SIZE_768
                               ? "row"
                               : "column"
                           }

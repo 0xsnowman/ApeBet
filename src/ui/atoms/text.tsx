@@ -86,7 +86,7 @@ const Text: React.FC<ITextProps> = ({
       className={[
         "atom-text",
         className,
-        deviceWidth > WINDOW_SIZES.SIZE_768
+        deviceWidth >= WINDOW_SIZES.SIZE_768
           ? classNames[type]
           : mobileClassNames[type]
       ].join(" ")}
@@ -114,7 +114,7 @@ const Text: React.FC<ITextProps> = ({
       className={[
         "atom-text",
         className,
-        deviceWidth > WINDOW_SIZES.SIZE_768
+        deviceWidth >= WINDOW_SIZES.SIZE_768
           ? classNames[type]
           : mobileClassNames[type]
       ].join(" ")}

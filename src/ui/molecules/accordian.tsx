@@ -72,7 +72,7 @@ const Accordian: React.FC<IAccordianProps> = ({ contents }) => {
                       overflowY="hidden"
                       maxHeight={
                         !contentItem.collapse
-                          ? deviceWidth > WINDOW_SIZES.SIZE_768
+                          ? deviceWidth >= WINDOW_SIZES.SIZE_768
                             ? "200px"
                             : "350px"
                           : "0px"

@@ -19,19 +19,9 @@ const Team = () => {
               gap={20}
               alignItems="center"
               flexDirection={
-                deviceWidth > WINDOW_SIZES.SIZE_768 ? "row" : "column"
+                deviceWidth >= WINDOW_SIZES.SIZE_768 ? "row" : "column"
               }
             >
-              <Flex flex={1}>
-                <Box padding={20}>
-                  <Box paddingHorizontal={30} paddingVertical={10}>
-                    <Text type="logo" color="black" fontWeight={600}>
-                      FAQ
-                    </Text>
-                  </Box>
-                  <Accordian contents={faqData} />
-                </Box>
-              </Flex>
               <Flex flex={1} justifyContent="center">
                 <Box padding={20} width="100%">
                   <Flex flexDirection="column" gap={20} alignItems="center">
@@ -40,7 +30,7 @@ const Team = () => {
                         deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
                       justifyContent="center"
-                      gap={"5%"}
+                      gap={deviceWidth > WINDOW_SIZES.SIZE_874 ? "5%" : 20}
                     >
                       <Box
                         borderWidth={6}
@@ -123,7 +113,7 @@ const Team = () => {
                         deviceWidth > WINDOW_SIZES.SIZE_874 ? "row" : "column"
                       }
                       justifyContent="center"
-                      gap={"5%"}
+                      gap={deviceWidth > WINDOW_SIZES.SIZE_874 ? "5%" : 20}
                     >
                       <Box
                         borderWidth={6}
@@ -201,6 +191,16 @@ const Team = () => {
                       </Box>
                     </Flex>
                   </Flex>
+                </Box>
+              </Flex>
+              <Flex flex={1}>
+                <Box padding={20}>
+                  <Box paddingHorizontal={30} paddingVertical={10}>
+                    <Text type="logo" color="black" fontWeight={600}>
+                      FAQ
+                    </Text>
+                  </Box>
+                  <Accordian contents={faqData} />
                 </Box>
               </Flex>
             </Flex>

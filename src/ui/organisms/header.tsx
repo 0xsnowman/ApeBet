@@ -61,7 +61,7 @@ const Header = () => {
                 }}
               >
                 <Text
-                  type={deviceWidth > WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
+                  type={deviceWidth >= WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
                   color={
                     currentSelection === "home" || currentHovered === "home"
                       ? "red"
@@ -86,7 +86,7 @@ const Header = () => {
                 }}
               >
                 <Text
-                  type={deviceWidth > WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
+                  type={deviceWidth >= WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
                   color={
                     currentSelection === "roadmap" ||
                     currentHovered === "roadmap"
@@ -112,7 +112,7 @@ const Header = () => {
                 }}
               >
                 <Text
-                  type={deviceWidth > WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
+                  type={deviceWidth >= WINDOW_SIZES.SIZE_768 ? "title" : "paragraph"}
                   color={
                     currentSelection === "team" || currentHovered === "team"
                       ? "red"

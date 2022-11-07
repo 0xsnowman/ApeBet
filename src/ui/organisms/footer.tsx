@@ -13,7 +13,7 @@ const Footer = () => {
       padding={20}
       borderTopWidth={6}
       borderColor={
-        deviceWidth > WINDOW_SIZES.SIZE_768 ? "transparent" : "black"
+        deviceWidth >= WINDOW_SIZES.SIZE_768 ? "transparent" : "black"
       }
     >
       {deviceWidth >= WINDOW_SIZES.SIZE_768 && (
